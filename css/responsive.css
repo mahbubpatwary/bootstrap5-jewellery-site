@@ -1,0 +1,205 @@
+/* variable Define  */
+
+:root {
+    --primary-color: #ff553e;
+    --secondry-color: #333;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+
+/* laptop screen  */
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    .wrapper {
+        padding-top: 1.2rem;
+        padding-bottom: 1.25rem;
+    }
+}
+
+
+/* tab screen  */
+
+@media (max-width: 991px) {
+    h4 {
+        font-size: 0.9rem;
+        margin-bottom: 0.6rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    /* navbar design  */
+    .navigation-wrap .nav-brand img {
+        height: 2.8rem;
+    }
+
+    .navigation-wrap .navbar-toggler i {
+        color: var(--white-color);
+        line-height: 2;
+    }
+
+    .navigation-wrap {
+        text-align: right;
+        background-color: var(--black-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.8rem;
+    }
+
+
+    /* home banner design */
+
+
+    #home{
+        padding: 4.3rem 0 0;
+    }
+
+    #home .carousel-caption{
+        top: 3.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* medium screen  */
+
+@media (max-width: 767px) {}
+
+
+/* small section  */
+
+@media (max-width: 575px) {
+
+
+    h1{
+        font-size: 1rem;
+
+    }
+    h2{
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .main-btn{
+        height: 20px;
+        line-height: 20px;
+        font-size: 0.9rem;
+
+    }
+
+    .main-btn::after{
+        transform: translateY(0.9rem);
+
+    }
+
+    .main-btn::before{
+        transform: translateY(-0.9rem);
+    }
+
+
+    
+    /* top banner design */
+
+    #home .carousel-caption{
+        top: 1.5rem;
+    }
+
+
+    #home .carousel-caption p{
+        margin: 5px auto;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* mobile big screem  */
+@media (max-width: 430px) {
+    
+
+    h1{
+        margin-bottom: 0;
+    }
+
+    /* top banner */
+
+    .top-header{
+        display: none;
+    }
+
+    #home .carousel-caption p{
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+
+    }
+
+     #home .carousel-caption{
+         padding: 0;
+     }
+
+
+     
+
+
+
+
+}
+
+
+
+
+/* mobile small screen screen  */
+
+@media (max-width: 330px) {
+
+
+
+    #home .carousel-caption{
+        top: 1rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+}
